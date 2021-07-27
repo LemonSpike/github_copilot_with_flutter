@@ -59,6 +59,10 @@ class _MyHomePageState extends State<MyHomePage> {
     list.count();
   }
 
+  void _doubleCounter() {
+    _counter = _counter * 2;
+  }
+
   void _incrementCounter() {
     setState(() {
       // This call to setState tells the Flutter framework that something has
